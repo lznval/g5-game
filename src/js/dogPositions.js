@@ -1,11 +1,11 @@
 export const dogPositionMobile = {
   0: {
     x: 100,
-    y: 150,
+    y: 160,
   },
   1: {
-    x: 370,
-    y: 170,
+    x: 380,
+    y: 180,
   },
   2: {
     x: 280,
@@ -17,21 +17,21 @@ export const dogPositionMobile = {
   },
   4: {
     x: 300,
-    y: 510,
+    y: 540,
   },
 };
 
 export const dogPosition = {
   0: {
     x: 100,
-    y: 130,
+    y: 120,
   },
   1: {
-    x: 350,
-    y: 170,
+    x: 370,
+    y: 160,
   },
   2: {
-    x: 520,
+    x: 650,
     y: 110,
   },
   3: {
@@ -39,7 +39,7 @@ export const dogPosition = {
     y: 350,
   },
   4: {
-    x: 630,
+    x: 650,
     y: 350,
   },
 };

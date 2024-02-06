@@ -1,4 +1,4 @@
-export const finalScreen = () => {
+export const finalScreen = (app, mobileScreen) => {
   const finalScreen = new PIXI.Container();
 
   const finalOverlay = new PIXI.Graphics();
@@ -66,4 +66,5 @@ export const finalScreen = () => {
   }
   textSolve.anchor.set(0.5);
   finalScreen.addChild(textSolve);
+  app.stage.addChild(finalScreen);
 };
